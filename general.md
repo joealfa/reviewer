@@ -166,7 +166,8 @@ Microservices architecture involves designing an application as a collection of 
 Object-Oriented Programming is defined as a programming paradigm (and not a specific language) built on the concept of objects, i.e., a set of data contained in fields, and code, indicating procedures – instead of the usual logic-based system. This article explains the fundamental concepts of OOP and its most significant advantages. 
 
 The four pillars of Object-Oriented Programming (OOPS) are:
-1. **Encapsulation**:
+
+**1. Encapsulation**:
   - Encapsulation is the mechanism of restricting access to some of the object's components and protecting the object's internal state from unauthorized access and modification. This is typically achieved using access modifiers like private, protected, and public.
     - Example:
       ```java
@@ -192,7 +193,7 @@ The four pillars of Object-Oriented Programming (OOPS) are:
       }
       ```
 
-2. **Inheritance**:
+**2. Inheritance**:
   - Inheritance is a mechanism where a new class inherits the properties and behavior (methods) of an existing class. The existing class is called the "base" or "parent" class, and the new class is called the "derived" or "child" class.
     - Example:
       ```java
@@ -209,7 +210,7 @@ The four pillars of Object-Oriented Programming (OOPS) are:
       }
       ```
 
-3. **Polymorphism**:
+**3. Polymorphism**:
   - Polymorphism allows objects to be treated as instances of their parent class rather than their actual class. The most common use of polymorphism is when a parent class reference is used to refer to a child class object.
     - Example:
       ```java
@@ -244,7 +245,7 @@ The four pillars of Object-Oriented Programming (OOPS) are:
       }
       ```
 
-4. **Abstraction**:
+**4. Abstraction**:
   - Abstraction is the concept of hiding the complex implementation details and showing only the essential features of the object. It helps in reducing programming complexity and effort.
     - Example:
       ```java
