@@ -1,14 +1,8 @@
-## Event-Driven Architecture
-Event-driven architecture in .NET involves designing systems where the flow of the program is determined by events such as user actions, sensor outputs, or messages from other programs.
-
-## Clean Architecture .NET
-Clean Architecture is a software design philosophy that emphasizes separation of concerns, making the system easier to maintain and test. It involves organizing code into layers, such as presentation, application, domain, and infrastructure.
-
 ## CLI and CLR
 - **CLI (Common Language Infrastructure)**: A platform for running .NET programs, providing a language-neutral environment.
 - **CLR (Common Language Runtime)**: The virtual machine component of .NET that manages the execution of .NET programs.
 
-## EF, LINQ, and ADO
+## EF, LINQ, and ADO.NET
 - **EF (Entity Framework)**: An ORM (Object-Relational Mapper) for .NET, enabling developers to work with a database using .NET objects.
 - **LINQ (Language Integrated Query)**: A set of features in .NET that provides query capabilities directly in C# and VB.NET.
 - **ADO.NET**: A set of classes that expose data access services for .NET Framework programmers.
@@ -79,28 +73,6 @@ public class DerivedClass : BaseClass
 }
 ```
 
-## HTTP Verbs, REST, RESTful, and API
-- **HTTP Verbs**: Methods like GET, POST, PUT, DELETE used in HTTP requests.
-- **REST (Representational State Transfer)**: An architectural style for designing networked applications.
-- **RESTful**: Refers to web services that adhere to REST principles.
-- **API (Application Programming Interface)**: A set of rules that allows different software entities to communicate with each other.
-
-## CRUD
-CRUD stands for Create, Read, Update, Delete - the four basic operations of persistent storage.
-
-## CQRS
-CQRS (Command Query Responsibility Segregation) is a pattern that separates read and write operations into different models.
-
-## CORS
-CORS (Cross-Origin Resource Sharing) is a mechanism that allows restricted resources on a web page to be requested from another domain.
-
-## DTO and POCO
-- **DTO (Data Transfer Object)**: An object that carries data between processes.
-- **POCO (Plain Old CLR Object)**: Simple objects created in .NET without any special attributes or behavior.
-
-## Microservices
-Microservices architecture involves designing an application as a collection of loosely coupled services, each implementing a specific business capability.
-
 ## Authorization and Authentication
 - **Authentication**: Verifying the identity of a user.
 - **Authorization**: Determining if a user has permission to perform an action.
@@ -118,11 +90,11 @@ public sealed class SealedClass { }
 - **Class**: A reference type that supports inheritance.
 - **Struct**: A value type that does not support inheritance.
 
-## abstract and interface
+## abstract Class and interface
 - **Abstract Class**: A class that cannot be instantiated and may contain abstract methods.
 - **Interface**: A contract that defines a set of methods and properties that implementing classes must provide.
 
-## task and thread
+## Task and Thread
 - **Task**: Represents an asynchronous operation.
 - **Thread**: Represents a thread of execution.
 
@@ -181,18 +153,5 @@ public delegate void MyDelegate(string message);
 - **Managed Code**: Code that runs under the control of the CLR.
 - **Unmanaged Code**: Code that runs outside the control of the CLR.
 
-## Browser Request for a Web Page
-When a browser requests a web page, it sends an HTTP request to the server, which processes the request and sends back an HTTP response containing the requested resource.
-
-## Caching
-Caching involves storing data in memory to improve performance by reducing the need to fetch data from a slower source.
-
-## Middleware
-Middleware are components that are used to handle requests and responses in an ASP.NET Core application pipeline.
-
 ## Unit Test
 Unit tests are automated tests that verify the correctness of a small piece of code. Frameworks include MSTest, NUnit, and xUnit.
-
-## BDD and TDD in
-- **BDD (Behavior-Driven Development)**: An extension of TDD that focuses on the behavior of an application.
-- **TDD (Test-Driven Development)**: A development process where tests are written before the code that needs to pass the tests.
