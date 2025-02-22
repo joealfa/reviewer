@@ -10,16 +10,16 @@ The Virtual DOM is a lightweight representation of the actual DOM in memory. Rea
 Lifting state up refers to moving state from child components to a common parent component. This is done to share state between multiple child components. By lifting the state up, the parent component can manage the state and pass it down to the children via props.
 
 ## React Design Patterns
-1. **Container and Presentational Components**: Separates components into two categories: container components (handle state and logic) and presentational components (render UI).
-2. **Higher-Order Components (HOC)**: A function that takes a component and returns a new component with additional props or behavior.
-3. **Render Props**: A technique where a component's children is a function that returns a React element.
-4. **Controlled and Uncontrolled Components**: Controlled components have their state managed by React, while uncontrolled components manage their own state.
+- **Container and Presentational Components**: Separates components into two categories: container components (handle state and logic) and presentational components (render UI).
+- **Higher-Order Components (HOC)**: A function that takes a component and returns a new component with additional props or behavior.
+- **Render Props**: A technique where a component's children is a function that returns a React element.
+- **Controlled and Uncontrolled Components**: Controlled components have their state managed by React, while uncontrolled components manage their own state.
 
 ## Component Lifecycle
 React components go through several lifecycle phases:
-1. **Mounting**: When the component is created and inserted into the DOM (`componentDidMount`).
-2. **Updating**: When the component is re-rendered due to changes in props or state (`componentDidUpdate`).
-3. **Unmounting**: When the component is removed from the DOM (`componentWillUnmount`).
+- **Mounting**: When the component is created and inserted into the DOM (`componentDidMount`).
+- **Updating**: When the component is re-rendered due to changes in props or state (`componentDidUpdate`).
+- **Unmounting**: When the component is removed from the DOM (`componentWillUnmount`).
 
 ## React Data Binding
 React uses one-way data binding, where data flows from parent to child components via props. This ensures a unidirectional data flow, making the application easier to debug and maintain.
@@ -53,9 +53,9 @@ function ExampleComponent() {
 ```
 
 ## Testing
-1. **Unit Testing**: Testing individual components or functions.
-2. **Integration Testing**: Testing how components work together.
-3. **End-to-End (E2E) Testing**: Testing the entire application flow.
+- **Unit Testing**: Testing individual components or functions.
+- **Integration Testing**: Testing how components work together.
+- **End-to-End (E2E) Testing**: Testing the entire application flow.
 
 ## SPA
 A Single Page Application (SPA) loads a single HTML page and dynamically updates the content as the user interacts with the app. React is commonly used to build SPAs due to its efficient rendering and state management.
