@@ -22,12 +22,49 @@
 - **PaaS (Platform as a Service)**: Platform allowing developers to build, deploy, and manage applications without worrying about underlying infrastructure. Example: Google App Engine.
 - **IaaS (Infrastructure as a Service)**: Provides virtualized computing resources over the internet. Example: Amazon EC2.
 
-## Azure Functions and Common Use Cases
-Azure Functions is a serverless compute service that allows you to run code on-demand without provisioning or managing infrastructure. Common use cases include:
-- Real-time file processing
-- Processing data streams
-- Running scheduled tasks
-- Building RESTful APIs
+## Azure Function and Common Use Cases
+Azure Functions is a **serverless computing** service offered by Microsoft Azure that allows developers to run small, event-driven pieces of code (functions) without managing the underlying infrastructure. It enables automatic scaling, pay-per-use pricing, and easy integration with other Azure services.
+
+**1. Usage of Azure Functions**  
+Azure Functions are used for:
+   - **Event-Driven Processing** – Execute code in response to events (e.g., file uploads, database changes, queue messages).
+   - **Automating Workflows** – Automate tasks such as data processing, scheduled jobs, or cloud automation.
+   - **API and Microservices** – Expose serverless APIs for microservices architectures.
+   - **Data Processing and Transformation** – Handle real-time data streams or process data from multiple sources.
+   - **IoT and AI Workloads** – Process IoT sensor data or trigger AI workflows.
+
+**2. Types of Azure Function Triggers**  
+Triggers define how a function is **invoked**. Here are the different types of triggers:
+   - **HTTP Trigger** – Runs when an HTTP request is received (REST APIs, webhooks).
+   - **Timer Trigger** – Executes on a predefined schedule (cron jobs).
+   - **Queue Storage Trigger** – Runs when a message appears in an Azure Storage Queue.
+   - **Service Bus Trigger** – Responds to messages in Azure Service Bus (queues or topics).
+   - **Blob Storage Trigger** – Triggers when a new or updated blob is detected in Azure Blob Storage.
+   - **Cosmos DB Trigger** – Executes when there is an update or insert in Azure Cosmos DB.
+   - **Event Grid Trigger** – Listens for events from Azure Event Grid.
+   - **Event Hub Trigger** – Responds to messages in Azure Event Hubs (used for event streaming).
+   - **SignalR Service Trigger** – Supports real-time notifications for SignalR applications.
+
+Each trigger type allows seamless integration with Azure services, making Azure Functions a powerful choice for **serverless applications**.
+
+## SignalR
+**SignalR** is a **real-time communication library** developed by Microsoft that enables **bi-directional** communication between clients and servers. It allows web applications to push content updates to connected clients instantly instead of clients having to poll the server for updates.
+
+SignalR supports:  
+✅ **WebSockets** (preferred for best performance)  
+✅ **Server-Sent Events (SSE)**  
+✅ **Long Polling** (fallback for unsupported browsers)  
+
+**Usage of SignalR**  
+SignalR is widely used in scenarios requiring **real-time updates**, such as:
+1. **Live Chat Applications** – Enables instant messaging in web and mobile apps.  
+2. **Real-Time Dashboards** – Updates analytics, stock prices, or IoT data in real time.  
+3. **Collaborative Apps** – Enables live document editing (like Google Docs).  
+4. **Live Notifications** – Sends instant push notifications (e.g., social media alerts).  
+5. **Online Multiplayer Games** – Synchronizes game states among players.  
+6. **Auction/Bidding Systems** – Updates bid prices dynamically in real time.  
+
+SignalR integrates well with **Azure SignalR Service**, allowing developers to scale real-time applications easily without managing connections manually.
 
 ## Principal Segments of the Windows Azure Platform
 1. **Windows Azure Compute**: Execution environment for running applications.
