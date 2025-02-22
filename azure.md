@@ -72,11 +72,12 @@ SignalR integrates well with **Azure SignalR Service**, allowing developers to s
 - **Windows Azure AppFabric**: Middleware for building and deploying applications.
 
 ## Azure SQL Database and Its Benefits
-Azure SQL Database is a fully managed relational database service with high availability, scalability, and built-in intelligence. Benefits include:
-- Automated backups and patching
-- Advanced security features
-- Scaling on-demand
-- Built-in performance tuning
+Azure SQL Database is a fully managed relational database service with high availability, scalability, and built-in intelligence.
+- Benefits include:
+   - Automated backups and patching
+   - Advanced security features
+   - Scaling on-demand
+   - Built-in performance tuning
 
 ## Types of Storage Areas in Windows Azure
 - **Blob Storage**: For storing unstructured data.
@@ -85,10 +86,11 @@ Azure SQL Database is a fully managed relational database service with high avai
 - **Table Storage**: NoSQL database for structured data.
 
 ## Azure Blob Storage and Its Use Cases
-Azure Blob Storage is used for storing large amounts of unstructured data. Use cases include:
-- Storing backups and archives
-- Streaming video and audio
-- Serving documents and images directly to browsers
+Azure Blob Storage is used for storing large amounts of unstructured data.
+- Use cases include:
+   - Storing backups and archives
+   - Streaming video and audio
+   - Serving documents and images directly to browsers
 
 ## Azure Resource Groups and Their Usage
 Azure Resource Groups are containers that hold related resources for an Azure solution. They help manage and organize resources by lifecycle and permissions.
@@ -97,9 +99,10 @@ Azure Resource Groups are containers that hold related resources for an Azure so
 IAM roles in Azure are used to grant access to Azure resources. They define the actions that a user or service can perform. Common roles include Owner, Contributor, and Reader.
 
 ## Azure Load Balancer and Its Types
-Azure Load Balancer distributes incoming network traffic across multiple backend resources. Types include:
-- **Public Load Balancer**: Distributes traffic from the internet to VMs.
-- **Internal Load Balancer**: Distributes traffic within a virtual network.
+Azure Load Balancer distributes incoming network traffic across multiple backend resources.
+- Types include:
+   - **Public Load Balancer**: Distributes traffic from the internet to VMs.
+   - **Internal Load Balancer**: Distributes traffic within a virtual network.
 
 ## Azure Virtual Machine vs. Azure App Services
 - **Azure Virtual Machines**: Provides full control over the operating system and applications.
@@ -144,9 +147,10 @@ Azure Resource Manager is the deployment and management service for Azure. It pr
 - **Azure Virtual Machines**: Provides IaaS for full control over OS and applications.
 - **Azure App Services**: PaaS for deploying web apps and APIs without managing the underlying infrastructure.
 
-## What is RBAC in Azure ##
+## What is RBAC in Azure
 
-RBAC stands for Role-Based Access Control. It is a system in Azure that provides fine-grained access management for Azure resources. RBAC allows you to assign roles to users, groups, and applications at a certain scope to control what they can do with those resources.
+RBAC stands for Role-Based Access Control. It is a system in Azure that provides fine-grained access management for Azure resources.  
+RBAC allows you to assign roles to users, groups, and applications at a certain scope to control what they can do with those resources.
 
 Key concepts of RBAC include:
 
