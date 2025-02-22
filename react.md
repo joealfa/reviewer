@@ -1,6 +1,11 @@
 ## Virtual DOM in React
 The Virtual DOM is a lightweight representation of the actual DOM in memory. React uses it to optimize updates to the real DOM by minimizing the number of changes needed. When the state of a component changes, React creates a new Virtual DOM tree and compares it with the previous one. This process is called "reconciliation." React then updates only the parts of the real DOM that have changed.
 
+## DOM
+- The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.
+
+- A web page is a document that can be either displayed in the browser window or as the HTML source. In both cases, it is the same document but the Document Object Model (DOM) representation allows it to be manipulated. As an object-oriented representation of the web page, it can be modified with a scripting language such as JavaScript.
+
 ## Lifting State Up in React
 Lifting state up refers to moving state from child components to a common parent component. This is done to share state between multiple child components. By lifting the state up, the parent component can manage the state and pass it down to the children via props.
 
