@@ -85,10 +85,3 @@ Redux is a state management library for JavaScript applications. It provides a c
 ## Context and Refs in React
 - **Context**: Provides a way to pass data through the component tree without having to pass props down manually at every level.
 - **Refs**: Provide a way to access DOM elements or React elements directly.
-
-## CRA and Benefits in React
-Create React App (CRA) is a tool that sets up a new React project with a sensible default configuration. Benefits include:
-- Zero configuration setup.
-- Built-in development server.
-- Pre-configured build scripts.
-- Support for modern JavaScript features.
