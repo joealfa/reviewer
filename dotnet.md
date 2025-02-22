@@ -155,3 +155,10 @@ public delegate void MyDelegate(string message);
 
 ## Unit Test
 Unit tests are automated tests that verify the correctness of a small piece of code. Frameworks include MSTest, NUnit, and xUnit.
+
+## Middleware
+Middleware are components that are used to handle requests and responses in an ASP.NET Core application pipeline.
+
+## DTO and POCO
+- **DTO (Data Transfer Object)**: An object that carries data between processes.
+- **POCO (Plain Old CLR Object)**: Simple objects created in .NET without any special attributes or behavior.

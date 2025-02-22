@@ -159,10 +159,6 @@ CQRS (Command Query Responsibility Segregation) is a pattern that separates read
 ## CORS
 CORS (Cross-Origin Resource Sharing) is a mechanism that allows restricted resources on a web page to be requested from another domain.
 
-## DTO and POCO
-- **DTO (Data Transfer Object)**: An object that carries data between processes.
-- **POCO (Plain Old CLR Object)**: Simple objects created in .NET without any special attributes or behavior.
-
 ## Microservices
 Microservices architecture involves designing an application as a collection of loosely coupled services, each implementing a specific business capability.
 
@@ -325,9 +321,6 @@ This process happens in milliseconds to seconds, depending on network speed and 
 
 ## Caching
 Caching involves storing data in memory to improve performance by reducing the need to fetch data from a slower source.
-
-## Middleware
-Middleware are components that are used to handle requests and responses in an ASP.NET Core application pipeline.
 
 ## BDD and TDD in
 - **BDD (Behavior-Driven Development)**: An extension of TDD that focuses on the behavior of an application.
