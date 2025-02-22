@@ -11,11 +11,11 @@
 - **Azure Active Directory (AAD)**: Identity and access management service for secure sign-in and access control.
 
 ## Main Advantages of Using Cloud-Based Technologies
-1. **Scalability**: Easily scale resources up or down based on demand.
-2. **Cost-Efficiency**: Pay only for what you use, reducing capital expenditures.
-3. **Disaster Recovery**: Built-in backup and recovery options reduce downtime.
-4. **Flexibility**: Access resources and services from anywhere.
-5. **Security**: Advanced security features and compliance with global standards.
+- **Scalability**: Easily scale resources up or down based on demand.
+- **Cost-Efficiency**: Pay only for what you use, reducing capital expenditures.
+- **Disaster Recovery**: Built-in backup and recovery options reduce downtime.
+- **Flexibility**: Access resources and services from anywhere.
+- **Security**: Advanced security features and compliance with global standards.
 
 ## Difference Between SaaS, PaaS, and IaaS with Examples
 - **SaaS (Software as a Service)**: Fully managed applications delivered over the internet. Example: Microsoft Office 365.
@@ -51,25 +51,25 @@ Each trigger type allows seamless integration with Azure services, making Azure 
 **SignalR** is a **real-time communication library** developed by Microsoft that enables **bi-directional** communication between clients and servers. It allows web applications to push content updates to connected clients instantly instead of clients having to poll the server for updates.
 
 SignalR supports:  
-✅ **WebSockets** (preferred for best performance)  
-✅ **Server-Sent Events (SSE)**  
-✅ **Long Polling** (fallback for unsupported browsers)  
+- **WebSockets** (preferred for best performance)  
+- **Server-Sent Events (SSE)**  
+- **Long Polling** (fallback for unsupported browsers)  
 
 **Usage of SignalR**  
 SignalR is widely used in scenarios requiring **real-time updates**, such as:
-1. **Live Chat Applications** – Enables instant messaging in web and mobile apps.  
-2. **Real-Time Dashboards** – Updates analytics, stock prices, or IoT data in real time.  
-3. **Collaborative Apps** – Enables live document editing (like Google Docs).  
-4. **Live Notifications** – Sends instant push notifications (e.g., social media alerts).  
-5. **Online Multiplayer Games** – Synchronizes game states among players.  
-6. **Auction/Bidding Systems** – Updates bid prices dynamically in real time.  
+- **Live Chat Applications** – Enables instant messaging in web and mobile apps.  
+- **Real-Time Dashboards** – Updates analytics, stock prices, or IoT data in real time.  
+- **Collaborative Apps** – Enables live document editing (like Google Docs).  
+- **Live Notifications** – Sends instant push notifications (e.g., social media alerts).  
+- **Online Multiplayer Games** – Synchronizes game states among players.  
+- **Auction/Bidding Systems** – Updates bid prices dynamically in real time.  
 
 SignalR integrates well with **Azure SignalR Service**, allowing developers to scale real-time applications easily without managing connections manually.
 
 ## Principal Segments of the Windows Azure Platform
-1. **Windows Azure Compute**: Execution environment for running applications.
-2. **Windows Azure Storage**: Scalable storage solutions for data.
-3. **Windows Azure AppFabric**: Middleware for building and deploying applications.
+- **Windows Azure Compute**: Execution environment for running applications.
+- **Windows Azure Storage**: Scalable storage solutions for data.
+- **Windows Azure AppFabric**: Middleware for building and deploying applications.
 
 ## Azure SQL Database and Its Benefits
 Azure SQL Database is a fully managed relational database service with high availability, scalability, and built-in intelligence. Benefits include:
@@ -79,10 +79,10 @@ Azure SQL Database is a fully managed relational database service with high avai
 - Built-in performance tuning
 
 ## Types of Storage Areas in Windows Azure
-1. **Blob Storage**: For storing unstructured data.
-2. **File Storage**: Fully managed file shares in the cloud.
-3. **Queue Storage**: Message queueing for communication between applications.
-4. **Table Storage**: NoSQL database for structured data.
+- **Blob Storage**: For storing unstructured data.
+- **File Storage**: Fully managed file shares in the cloud.
+- **Queue Storage**: Message queueing for communication between applications.
+- **Table Storage**: NoSQL database for structured data.
 
 ## Azure Blob Storage and Its Use Cases
 Azure Blob Storage is used for storing large amounts of unstructured data. Use cases include:
@@ -126,16 +126,16 @@ Azure DevOps provides tools for planning, developing, delivering, and maintainin
 - Azure Artifacts
 
 ## Different Types of Storage in Azure
-1. **Blob Storage**
-2. **File Storage**
-3. **Queue Storage**
-4. **Table Storage**
-5. **Disk Storage**
+- **Blob Storage**
+- **File Storage**
+- **Queue Storage**
+- **Table Storage**
+- **Disk Storage**
 
 ## Various Models Available for Cloud Deployment in Azure
-1. **Public Cloud**: Resources are owned and operated by a third-party cloud service provider.
-2. **Private Cloud**: Resources are used exclusively by a single organization.
-3. **Hybrid Cloud**: Combines public and private clouds for flexibility.
+- **Public Cloud**: Resources are owned and operated by a third-party cloud service provider.
+- **Private Cloud**: Resources are used exclusively by a single organization.
+- **Hybrid Cloud**: Combines public and private clouds for flexibility.
 
 ## Azure Resource Manager (ARM) and Its Importance
 Azure Resource Manager is the deployment and management service for Azure. It provides a consistent management layer for creating, updating, and deleting resources in Azure.
