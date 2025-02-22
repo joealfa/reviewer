@@ -270,7 +270,7 @@ The four pillars of Object-Oriented Programming (OOPS) are:
 These principles help in creating modular, reusable, and maintainable code.
 
 ## Event-Driven Architecture
-Event-driven architecture in .NET involves designing systems where the flow of the program is determined by events such as user actions, sensor outputs, or messages from other programs.
+Event-driven architecture involves designing systems where the flow of the program is determined by events such as user actions, sensor outputs, or messages from other programs.
 
 ## Clean Architecture
 Clean Architecture is a software design philosophy that emphasizes separation of concerns, making the system easier to maintain and test. It involves organizing code into layers, such as presentation, application, domain, and infrastructure.
