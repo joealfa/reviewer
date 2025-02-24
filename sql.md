@@ -75,7 +75,7 @@ ON employees.dept_id = departments.dept_id;
 ```
 💡 **Result:** All employees are listed, even those without a department.
 
-** 3️⃣ RIGHT JOIN** (or RIGHT OUTER JOIN)
+**3️⃣ RIGHT JOIN** (or RIGHT OUTER JOIN)
 - Returns all rows from the **right** table and matching rows from the **left** table.
 - If no match, NULL values appear for the left table’s columns.
 
