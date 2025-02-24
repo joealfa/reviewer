@@ -49,11 +49,11 @@ ORDER BY salary ASC;
 In SQL, **JOINs** are used to combine rows from two or more tables based on a related column. This allows querying data that is stored across multiple tables.
 
 ### Types of SQL JOINs
-#### 1️⃣ **INNER JOIN** (Most Common)
+**1️⃣ INNER JOIN** (Most Common)
 - Returns only the matching rows from both tables.
 - Non-matching rows are excluded.
 
-✅ **Example:**
+✅ Example:
 ```sql
 SELECT employees.name, departments.dept_name 
 FROM employees 
@@ -62,11 +62,11 @@ ON employees.dept_id = departments.dept_id;
 ```
 💡 **Result:** Only employees with a matching `dept_id` in the `departments` table are shown.
 
-#### 2️⃣ **LEFT JOIN** (or LEFT OUTER JOIN)
+**2️⃣ LEFT JOIN** (or LEFT OUTER JOIN)
 - Returns all rows from the **left** table and matching rows from the **right** table.
 - If there is no match, NULL values are returned for columns from the right table.
 
-✅ **Example:**
+✅ Example:
 ```sql
 SELECT employees.name, departments.dept_name 
 FROM employees 
@@ -75,11 +75,11 @@ ON employees.dept_id = departments.dept_id;
 ```
 💡 **Result:** All employees are listed, even those without a department.
 
-#### 3️⃣ **RIGHT JOIN** (or RIGHT OUTER JOIN)
+** 3️⃣ RIGHT JOIN** (or RIGHT OUTER JOIN)
 - Returns all rows from the **right** table and matching rows from the **left** table.
 - If no match, NULL values appear for the left table’s columns.
 
-✅ **Example:**
+✅ Example:
 ```sql
 SELECT employees.name, departments.dept_name 
 FROM employees 
@@ -88,11 +88,11 @@ ON employees.dept_id = departments.dept_id;
 ```
 💡 **Result:** All departments are listed, even those without employees.
 
-#### 4️⃣ **FULL JOIN** (or FULL OUTER JOIN)
+**4️⃣ FULL JOIN** (or FULL OUTER JOIN)
 - Returns all records from **both** tables.
 - If there is no match, NULL values appear for missing matches.
 
-✅ **Example:**
+✅ Example:
 ```sql
 SELECT employees.name, departments.dept_name 
 FROM employees 
@@ -101,11 +101,11 @@ ON employees.dept_id = departments.dept_id;
 ```
 💡 **Result:** Shows all employees and all departments, including those with no match.
 
-#### 5️⃣ **CROSS JOIN** 
+**5️⃣ CROSS JOIN** 
 - Returns the **Cartesian product** of both tables.
 - Every row in Table A is combined with every row in Table B.
 
-✅ **Example:**
+✅ Example:
 ```sql
 SELECT employees.name, departments.dept_name 
 FROM employees 
@@ -113,11 +113,11 @@ CROSS JOIN departments;
 ```
 💡 **Result:** If there are 5 employees and 3 departments, the result will have **5 × 3 = 15 rows**.
 
-#### 6️⃣ **SELF JOIN**
+**6️⃣ SELF JOIN**
 - A table is joined with itself.
 - Useful for hierarchical data (e.g., employees & managers).
 
-✅ **Example:**
+✅ Example:
 ```sql
 SELECT e1.name AS Employee, e2.name AS Manager
 FROM employees e1
@@ -126,7 +126,7 @@ ON e1.manager_id = e2.emp_id;
 ```
 💡 **Result:** Shows employees along with their managers.
 
-#### **Summary Table**
+**Summary Table**
 | **JOIN Type**  | **Matching Rows?** | **Non-Matching Rows?** |
 |---------------|------------------|------------------|
 | **INNER JOIN**  | ✅ Yes (Both Tables) | ❌ No |
@@ -136,7 +136,7 @@ ON e1.manager_id = e2.emp_id;
 | **CROSS JOIN**  | ❌ No Condition | ✅ All Combinations |
 | **SELF JOIN**   | ✅ Yes (Same Table) | ❌ No |
 
-👉 **Use Case Examples:**
+**👉 Use Case Examples:**
 - `INNER JOIN` → Get employees with departments.
 - `LEFT JOIN` → Get all employees (even those without a department).
 - `RIGHT JOIN` → Get all departments (even those with no employees).
@@ -150,8 +150,6 @@ Optimizing SQL queries is crucial for improving database performance, reducing e
 **1️⃣ Use Proper Indexing**
 
 ## What is Indexing in SQL?
-
-### **What is Indexing in SQL?**
 Indexing in SQL is a technique used to improve the speed of data retrieval from a database table. An index is similar to a book's table of contents—it allows the database to quickly locate and fetch the requested data instead of scanning the entire table.
 
 **Types of Indexes in SQL**
@@ -161,7 +159,7 @@ Indexing in SQL is a technique used to improve the speed of data retrieval from 
 - The physical order of table rows is arranged based on the index.
 - Each table can have **only one** clustered index.
 
-✅ **Example:**
+✅ Example:
 ```sql
 CREATE CLUSTERED INDEX idx_emp_id ON employees(emp_id);
 ```
@@ -171,7 +169,7 @@ CREATE CLUSTERED INDEX idx_emp_id ON employees(emp_id);
 - Ensures that all values in a column are **distinct**.
 - Automatically created on **Primary Keys & Unique Constraints**.
 
-✅ **Example:**
+✅ Example:
 ```sql
 CREATE UNIQUE INDEX idx_unique_email ON employees(email);
 ```
@@ -182,7 +180,7 @@ CREATE UNIQUE INDEX idx_unique_email ON employees(email);
 - Used when multiple indexes are needed on a table.
 - A table can have **multiple non-clustered indexes**.
 
-✅ **Example:**
+✅ Example:
 ```sql
 CREATE INDEX idx_salary ON employees(salary);
 ```
@@ -191,7 +189,7 @@ CREATE INDEX idx_salary ON employees(salary);
 ** 4️⃣ Composite Index (Multi-Column Index)**
 - Indexing on **multiple columns** to speed up queries involving both.
 
-✅ **Example:**
+✅ Example:
 ```sql
 CREATE INDEX idx_name_dept ON employees(last_name, dept_id);
 ```
@@ -201,7 +199,7 @@ CREATE INDEX idx_name_dept ON employees(last_name, dept_id);
 - Used for fast text searches in **large text fields**.
 - Useful for searching documents, articles, etc.
 
-✅ **Example (MySQL & SQL Server):**
+✅ Example (MySQL & SQL Server):
 ```sql
 CREATE FULLTEXT INDEX idx_description ON products(description);
 ```
